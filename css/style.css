@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(header.css);
+@import url(main.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+h1, h2{
+    font-family: "Playfair Display", serif;
+}
+button{
+    font-family: "Hammersmith One", sans-serif;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #00e0d0;
+    text-transform: uppercase;
+    background: none;
+    font-weight: 400;
+    color: #00e0d0;
+    cursor: pointer;
+}

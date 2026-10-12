@@ -1,0 +1,54 @@
+header{
+    background-image: url(../img/PUT\ YOUR\ BACKGROUND\ HERE2.png);
+    text-align: center;
+    color: white;
+    padding-bottom: 204px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+.top_menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+.top_menu a{
+    font-size: 13px;
+    color: white;
+    font-weight: 400; 
+}
+.link_menu{
+    font-size: 13px;
+    color: #00e0d0;
+    font-weight: 400; 
+}
+.active{
+    color: #00e0d0;
+}
+h1{
+    font-weight: 900;
+    font-size: 32px;
+    position: relative;
+    padding-bottom: 23px;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+    bottom: 0;
+    left: 48%;
+}
+p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 42px auto;
+}
+

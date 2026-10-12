@@ -1,0 +1,50 @@
+.story{
+    max-width: 960px;
+    margin: auto;
+    padding: 70px 0 70px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-story{
+    width: 235px;
+    height: 229px;
+    object-fit: contain;
+}
+.our-story{
+    width: 545px;
+}
+.title{
+    font-size: 22px;
+    color: #413d4b;
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
+.our-story p{
+    color: #413d4b;
+    font-weight: 400;
+    opacity: 0.749;
+    margin-bottom: 30px;
+}
+
+
+.video{
+    min-height: 540px;
+    background-image: url(../img/PUT\ YOUR\ IMAGE\ HERE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.fa-circle-play{
+    font-size: 95px;
+    color: white;
+    cursor: pointer;
+}
+.video p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
