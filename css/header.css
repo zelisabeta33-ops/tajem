@@ -51,4 +51,18 @@ p{
     font-weight: 400;
     margin: 42px auto;
 }
+.btn{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #00e0d0;
+    text-transform: uppercase;
+    background: none;
+    font-weight: 400;
+    color: #00e0d0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
 
