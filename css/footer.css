@@ -1,0 +1,31 @@
+.contact{
+    background-image: url(../img/PUT\ YOUR\ IMAGE\ HERE.png);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 0px;
+}
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 0px 10px 60px 10px;
+}
+.tajam p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.studio h3{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
