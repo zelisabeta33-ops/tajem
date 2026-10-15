@@ -26,8 +26,13 @@ nav{
     font-size: 13px;
     color: #00e0d0;
     font-weight: 400; 
+    display: inline-block;
+    transition: all 0.3s ease;
 }
-.active{
+.link_menu:hover{
+    transform: scale(1.1);
+}
+.top_menu .active{
     color: #00e0d0;
 }
 h1{

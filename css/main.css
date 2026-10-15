@@ -55,6 +55,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    transition: gap 0.5s ease;
 }
 .fa-circle-play{
     font-size: 95px;
@@ -64,6 +65,9 @@
 }
 .fa-circle-play:hover{
     transform: scale(1.1);
+}
+.video:has(.fa-circle-play:hover){
+    gap: 15px;
 }
 .video p{
     font-size: 16px;
@@ -175,12 +179,12 @@
 }
 .people{
     display: grid;
+    width: 900px;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin: 45px 0px 65px 0px;
 }
 .people .item{
-    width: 220px;
     border: 1px solid #e5e5e5;
     box-sizing: border-box;
     background-color: transparent;
@@ -252,12 +256,24 @@
     color: #413d4b;
     font-weight: 700;
 }
-.work-head p{
+.dribbble-link{
     font-size: 14px;
     letter-spacing: 1px;
     color: #413d4b;
     font-weight: 400;
     margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+.dribbble-link:hover{
+    gap: 12px;
+    margin: -10px;
+}
+.dribbble-link span{
+    font-size: 30px;
+    line-height: 1;
 }
 .gallery{
     display: grid;
@@ -306,7 +322,7 @@
     width: 770px;
 }
 .employer-info{
-    opacity: 0;
+    opacity: 0.3;
     transform: translateY(-10px);
     transition: all 0.5s ease;
 }
@@ -372,7 +388,7 @@
     transform: scale(0.7);
 }
 .employers .item.active-employer:hover{
-    transform: translate(0, -10%) scale(1);
+    transform: scale(1);
 }
 
 .feedback{
