@@ -330,10 +330,6 @@
     opacity: 1;
     transform: translateY(0);
 }
-.employer-info i{
-    color: white;
-    width: 30px;
-}
 .empl-bio{
     font-size: 16px;
     letter-spacing: 0px;
@@ -342,9 +338,6 @@
     font-weight: 400;
     opacity: 0.851;
     font-family: "Playfair Display";
-}
-.fa-quote-left{
-    font-size: 35px;
 }
 .employer-info h4{
     font-size: 14px;
